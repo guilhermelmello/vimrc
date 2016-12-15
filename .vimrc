@@ -179,13 +179,13 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 
 
 "" Settings for jedi-vim
-"" sudo yum install vim-jedi.noarch
+"" sudo dnf install vim-jedi
 "" cd ~/.vim/bundle
 "" git clone git://github.com/davidhalter/jedi-vim.git
-"let g:jedi#usages_command = "<leader>z"
-"let g:jedi#popup_on_dot = 0
-"let g:jedi#popup_select_first = 0
-"map <leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+let g:jedi#usages_command = "<leader>z"
+let g:jedi#popup_on_dot = 0
+let g:jedi#popup_select_first = 0
+map <leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 
 "" Better navigating through omnicomplete option list
